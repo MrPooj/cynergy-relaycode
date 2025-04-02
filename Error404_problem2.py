@@ -6,7 +6,7 @@ def menu():
     rotoin(ro,ma)
 
 def rotoin(ro,ma):
-    nnu=['I','V','X','L','C','M','i','v','x','l','c','m']
+    nnu=['I','V','X','L','C','M','i','v','x','l']
     me=[1,5,10,100,1000,1,5,10,100,1000]
     total=1
     total1=1
@@ -14,9 +14,9 @@ def rotoin(ro,ma):
 
     for n in ro:
         if (n in nnu):
-            print("yes")
-            ind=nnu(n)
-            n= me(ind)
+            print("converting to integer and adding: ")
+            ind=(nnu)
+            n=me(ind)
 
             if n== total:
                 total=total+n
@@ -53,7 +53,9 @@ def rotoin(ro,ma):
     print(total)
     print(total1)
     print(sum)
+    print(int(ro)+int(ma))
 
 
 
 menu()
+
